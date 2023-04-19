@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="registration-form.css">
+</head>
+<body>
+    <div class="outer-part">
+        <script src="registration-form.js"></script>
+        <h1>Registration Form</h1>
+            <form action="required">
+                <div class="name">
+                    <label for="first-name">Student name:</label>
+                    <input type="text" name="First name" placeholder="First name" required>
+                    <label for="middle-name"></label>
+                    <input type="text" name="Middle name" placeholder="Middle name">
+                    <label for="Last-name"></label>
+                    <input type="text" name="last name" placeholder="Last name">
+                </div>
+                <div id="dob">    
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" name="dob" required >
+                </div>
+                <div id="gender">
+                    <label for="gender">Gender:</label>
+                    <input type="radio" name="gender-choice" value="choice1" required>Male
+                    <input type="radio" name="gender-choice" value="choice2" required>Female
+                    <input type="radio" name="gender-choice" value="choice3" required>Others
+                </div>
+                <div class="name">
+                    <label for="first-name">Father's name:</label>
+                    <input type="text" name="First name" placeholder="First name" required>
+                    <label for="middle-name"></label>
+                    <input type="text" name="Middle name" placeholder="Middle name">
+                    <label for="Last-name"></label>
+                    <input type="text" name="last name" placeholder="Last name">
+                </div>
+                <div class="name">
+                    <label for="first-name">Mother's name:</label>
+                    <input type="text" name="First name" placeholder="First name" required>
+                    <label for="middle-name"></label>
+                    <input type="text" name="Middle name" placeholder="Middle name">
+                    <label for="Last-name"></label>
+                    <input type="text" name="last name" placeholder="Last name">
+                </div>
+                <div id="email">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="abc@gmail.com" required>
+                </div>
+                    <div id="password">    
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" required>
+                </div>    
+                <div id="box">
+                    <p>I hereby declare that all the above information are true by my side. If found wrong then I also adhere about the terms and conditions of the body.</p>
+                    <label for="agree">Agree:</label>
+                    <input type="checkbox" name="agree" required>
+                    <button type="submit" onclick="handleclick()">Submit</button>
+                </div>     
+            </form>
+    </div>
+</body>
+</html>

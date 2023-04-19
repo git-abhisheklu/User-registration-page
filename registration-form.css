@@ -1,0 +1,44 @@
+body{
+    background-color:#12183ccf ;
+}
+.outer-part{
+    margin: 0 auto;
+    background-color:#ef5454b5;
+    height: 600px;
+    width: 500px;
+    padding: 10px;
+    border-style: double;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 4%;
+}
+h1{
+    text-align: center;
+}
+.name{
+    flex-direction: column;
+    padding: 10px;
+}
+#dob{
+    padding: 10px;
+}
+#gender{
+    padding: 10px;
+}
+#email{
+    padding: 10px;
+}
+#password{
+    padding: 10px;
+}
+div>input{
+    background-color: #d3c9c9;
+    color: black;
+}
+button{
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+    border-width: 0.5px;
+}
+.
